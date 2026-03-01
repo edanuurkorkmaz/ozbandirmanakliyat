@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 
 export default function Services() {
   return (
-    <section className="bg-neutral-100 py-20">
+    <section id="services" className="bg-neutral-100 py-20">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-center font-bold text-2xl md:text-4xl mb-16">
           HİZMETLERİMİZ
