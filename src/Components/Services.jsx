@@ -14,7 +14,7 @@ export default function Services() {
             key={service.id}
             className="grid md:grid-cols-2 gap-12 items-center mb-24 relative"
           >
-            <span className="absolute right-10 top-0 text-[120px] font-bold text-neutral-200 select-none">
+            <span className="absolute -top-25 right-10 text-[120px] font-bold text-neutral-200 select-none">
               {service.id}
             </span>
 
