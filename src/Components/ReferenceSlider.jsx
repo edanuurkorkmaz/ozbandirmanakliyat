@@ -1,3 +1,1 @@
-export default function ReferenceSlider() {
-  return;
-}
+export default function ReferenceSlider() {}
