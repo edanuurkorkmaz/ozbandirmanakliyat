@@ -1,9 +1,9 @@
 import { Analytics } from "@vercel/analytics/react";
-import Navbar from "./components/NavbarTemp.jsx";
+import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
-import References from "./components/References";
-import Services from "./components/Services";
-import Blog from "./components/BlogTemp";
+import References from "./components/References.jsx";
+import Services from "./components/Services.jsx";
+import Blog from "./components/BlogTemp.jsx";
 
 export default function App() {
   return (
