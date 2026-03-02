@@ -1,4 +1,4 @@
-import Blog from "/src/components/Blog.jsx";
+import Blog from "/src/components/BlogTemp.jsx";
 import Hero from "/src/components/Hero.jsx";
 import Navbar from "/src/components/Navbar.jsx";
 import References from "/src/components/References.jsx";

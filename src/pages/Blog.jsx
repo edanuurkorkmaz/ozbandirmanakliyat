@@ -1,4 +1,4 @@
-import Navbar from "/src/components/Navbar.jsx";
+import Navbar from "../components/NavbarTemp.jsx";
 
 export default function Blog() {
   return (
