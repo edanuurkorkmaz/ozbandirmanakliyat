@@ -1,10 +1,12 @@
+import heroBg from "../images/hero-bg.jpeg";
+
 export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center text-white">
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center  "
         style={{
-          backgroundImage: "url('src/images/hero-bg.jpeg')",
+          backgroundImage: `url(${heroBg})`,
         }}
       />
 
