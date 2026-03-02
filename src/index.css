@@ -8,6 +8,19 @@
   --font-poppins: "Poppins", sans-serif;
   --font-open: "Open Sans", sans-serif;
 }
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateZ(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateZ(0);
+  }
+}
+body {
+  overflow-x: hidden;
+}
 
 h1,
 h2,
@@ -20,4 +33,11 @@ h6 {
 
 body {
   font-family: var(--font-open);
+}
+.swiper {
+  overflow: visible !important;
+}
+
+.swiper-wrapper {
+  overflow: visible !important;
 }

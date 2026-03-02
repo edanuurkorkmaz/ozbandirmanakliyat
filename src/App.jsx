@@ -8,8 +8,8 @@ export default function App() {
     <main>
       <Navbar />
       <Hero />
-      <Services />
       <References />
+      <Services />
     </main>
   );
 }
