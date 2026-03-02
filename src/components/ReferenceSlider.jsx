@@ -4,7 +4,7 @@ import { Autoplay } from "swiper/modules";
 
 export default function ReferenceSlider({ references }) {
   return (
-    <div className="mb-20">
+    <div className="mb-20 overflow-hidden">
       <Swiper
         modules={[Autoplay]}
         loop={true}
