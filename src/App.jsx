@@ -1,4 +1,3 @@
-import Blog from "./components/Blog";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import References from "./components/References";
@@ -12,7 +11,6 @@ export default function App() {
       <Hero />
       <References />
       <Services />
-      <Blog />
       <Analytics />
     </main>
   );
