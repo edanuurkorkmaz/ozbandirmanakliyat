@@ -1,4 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import References from "./components/References.jsx";
@@ -14,6 +16,7 @@ export default function App() {
       <Services />
       <Blog />
       <Analytics />
+      <SpeedInsights />
     </main>
   );
 }
