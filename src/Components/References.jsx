@@ -1,5 +1,5 @@
-import { references } from "../data/references";
-import ReferenceSlider from "./ReferenceSlider";
+import { references } from "../data/references.js";
+import ReferenceSlider from "./ReferenceSlider.jsx";
 
 export default function References() {
   return (
