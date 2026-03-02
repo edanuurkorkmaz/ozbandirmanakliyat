@@ -23,7 +23,7 @@ export default function ReferenceSlider({ references }) {
           2560: { slidesPerView: 7 },
         }}
       >
-        {[...references, ...references].map((ref, index) => (
+        {references.map((ref, index) => (
           <SwiperSlide key={`${ref.id}-${index}`}>
             <div
               className="
