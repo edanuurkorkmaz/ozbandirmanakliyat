@@ -1,6 +1,6 @@
 # Öz Bandırma Nakliyat – Kurumsal Website
 
-Bu proje, **:contentReference[oaicite:0]{index=0}** firması için geliştirilmiş modern ve responsive kurumsal web sitesidir.
+Bu proje, Öz Bandırma Nakliyat firması için geliştirilmiş modern ve responsive kurumsal web sitesidir.
 
 Uygulama React ve Vite altyapısı ile geliştirilmiş olup; performans, sürdürülebilirlik ve SEO uyumluluğu ön planda tutularak tasarlanmıştır.
 
