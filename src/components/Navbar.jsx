@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import Logo from "../Images/ÖBN.png";
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
           <Link to="/">
             <img
               className="w-30 cursor-pointer"
-              src="/src/Images/ÖBN.png"
+              src={Logo}
               alt="Öz Bandırma Nakliyat Logosu"
             />
           </Link>
