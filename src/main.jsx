@@ -3,14 +3,12 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import "./index.css";
 import App from "./App.jsx";
 import About from "./pages/About";
-import Blog from "./pages/Blog.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />} />
-      <Route path="blog" element={<Blog />} />
     </Routes>
   </BrowserRouter>,
 );
