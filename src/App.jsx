@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import References from "./components/References.jsx";
 import Services from "./components/Services.jsx";
-import Blog from "./components/BlogTemp.jsx";
+import Blog from "./components/Blog.jsx";
 
 export default function App() {
   return (
