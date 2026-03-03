@@ -14,7 +14,6 @@ export default function App() {
       <Hero />
       <References />
       <Services />
-      <Blog />
       <Analytics />
       <SpeedInsights />
     </main>
