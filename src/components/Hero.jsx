@@ -24,10 +24,10 @@ export default function Hero() {
           denizyolu taşımacılığı süreçlerinizi planlıyoruz.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-red-950/95 hover:text-white transition cursor-pointer">
+          <button className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-black/95 hover:text-white transition cursor-pointer">
             Teklif Al
           </button>
-          <button className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-red-950/95 hover:text-white transition cursor-pointer">
+          <button className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-black/95 hover:text-white transition cursor-pointer">
             İletişime Geç
           </button>
         </div>
