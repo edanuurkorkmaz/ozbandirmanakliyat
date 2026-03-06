@@ -6,7 +6,7 @@ export default function About() {
       <Navbar />
       <section className="relative h-screen flex items-center justify-center text-white">
         <div
-          className="absolute inset-0 bg-cover bg-ceneter"
+          className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: "url('src/images/hero-bg.jpeg')",
           }}

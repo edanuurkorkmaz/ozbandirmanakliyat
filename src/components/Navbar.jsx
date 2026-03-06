@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <header className="absolute top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <div>
           <Link to="/">
             <img
               className="w-30 cursor-pointer"
