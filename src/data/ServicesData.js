@@ -35,10 +35,10 @@ export const services = [
   },
   {
     id: 3,
-    title: "Depolama, Antrepo ve Lojistik Destek Hizmetleri",
+    title: "Depolama ve Lojistik Destek Hizmetleri",
     subtitle: "Esnek depolama ve sevkiyat destek çözümleri",
     description:
-      "İhtiyaca göre anlaşmalı depo alanları üzerinden hizmet sunuyor; sevkiyat öncesi tüm lojistik süreçlerin planlı ve güvenli şekilde yönetilmesini sağlıyoruz. Operasyonel ihtiyaçlara uygun depolama çözümleriyle ürünlerinizi güvenle muhafaza ederken, dağıtım süreçlerinin daha verimli ilerlemesine destek oluyoruz.",
+      "İhtiyaca göre anlaşmalı depo alanları üzerinden hizmet sunuyor; sevkiyat öncesi tüm lojistik süreçlerin planlı ve güvenli şekilde yönetilmesini sağlıyoruz.",
     image: depo,
     includes: [
       "Kısa ve uzun süreli depo organizasyonu",
