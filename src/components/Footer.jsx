@@ -37,19 +37,29 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Hızlı Linkler</h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link to="/">Ana Sayfa</Link>
+              <Link className="hover:text-white" to="/">
+                Ana Sayfa
+              </Link>
             </li>
             <li>
-              <Link to="/hakkimizda">Hakkımızda</Link>
+              <Link className="hover:text-white" to="/hakkimizda">
+                Hakkımızda
+              </Link>
             </li>
             <li>
-              <Link to="/hizmetler">Hizmetlerimiz</Link>
+              <Link className="hover:text-white" to="/hizmetler">
+                Hizmetlerimiz
+              </Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link className="hover:text-white" to="/blog">
+                Blog
+              </Link>
             </li>
             <li>
-              <Link to="/iletisim">İletişim</Link>
+              <Link className="hover:text-white" to="/iletisim">
+                İletişim
+              </Link>
             </li>
           </ul>
         </div>
@@ -71,39 +81,36 @@ export default function Footer() {
 
           <div className="border-t border-gray-700 mt-5">
             <h3 className="text-white font-semibold mb-4 mt-5">Sosyal Medya</h3>
-            <ul className="space-y-2 text-sm ">
-              <li className="flex items-center  gap-2">
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2">
                 <Facebook size={16} className="shrink-0" />
-                <span>
-                  <a
-                    target="_blank"
-                    href="https://www.facebook.com/oz.bandirma.nakliyat.lojistik/"
-                  >
-                    oz.bandirma.nakliyat.lojistik
-                  </a>
-                </span>
+                <a
+                  className="hover:text-white"
+                  target="_blank"
+                  href="https://www.facebook.com/oz.bandirma.nakliyat.lojistik/"
+                >
+                  oz.bandirma.nakliyat.lojistik
+                </a>
               </li>
-              <li className="flex items-center  gap-2">
+              <li className="flex items-center gap-2">
                 <Linkedin size={16} className="shrink-0" />
-                <span>
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/company/%C3%B6z-band%C4%B1rma-nakliyat/"
-                  >
-                    öz-bandırma-nakliyat
-                  </a>
-                </span>
+                <a
+                  className="hover:text-white"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/%C3%B6z-band%C4%B1rma-nakliyat/"
+                >
+                  öz-bandırma-nakliyat
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Instagram size={16} className="shrink-0" />
-                <span>
-                  <a
-                    target="_blank"
-                    href="https://www.instagram.com/ozbandirmanakliyatlojistik/"
-                  >
-                    ozbandirmanakliyatlojistik
-                  </a>
-                </span>
+                <a
+                  className="hover:text-white"
+                  target="_blank"
+                  href="https://www.instagram.com/ozbandirmanakliyatlojistik/"
+                >
+                  ozbandirmanakliyatlojistik
+                </a>
               </li>
             </ul>
           </div>
