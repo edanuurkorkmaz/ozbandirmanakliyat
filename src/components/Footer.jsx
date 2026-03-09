@@ -80,36 +80,35 @@ export default function Footer() {
           </div>
 
           <div className="border-t border-gray-700 mt-5">
-            <h3 className="text-white font-semibold mb-4 mt-5">Sosyal Medya</h3>
-            <ul className="space-y-2 text-sm">
+            <h3 className="text-white font-semibold mb-4 mt-5">
+              Bizi Takip Edin
+            </h3>
+            <ul className="space-y-2 flex gap-5 text-sm">
               <li className="flex items-center gap-2">
-                <Facebook size={16} className="shrink-0" />
                 <a
                   className="hover:text-white"
                   target="_blank"
                   href="https://www.facebook.com/oz.bandirma.nakliyat.lojistik/"
                 >
-                  oz.bandirma.nakliyat.lojistik
+                  <Facebook size={22} className="shrink-0" />
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Linkedin size={16} className="shrink-0" />
                 <a
                   className="hover:text-white"
                   target="_blank"
                   href="https://www.linkedin.com/company/%C3%B6z-band%C4%B1rma-nakliyat/"
                 >
-                  öz-bandırma-nakliyat
+                  <Linkedin size={22} className="shrink-0" />
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Instagram size={16} className="shrink-0" />
                 <a
                   className="hover:text-white"
                   target="_blank"
                   href="https://www.instagram.com/ozbandirmanakliyatlojistik/"
                 >
-                  ozbandirmanakliyatlojistik
+                  <Instagram size={22} className="shrink-0" />
                 </a>
               </li>
             </ul>
