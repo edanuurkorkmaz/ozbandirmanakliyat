@@ -7,6 +7,9 @@ import gumussuLogo from "../images/logos/gumussulogo.png";
 import proyemLogo from "../images/logos/proyemlogo.png";
 import torunlarLogo from "../images/logos/torunlarlogo.png";
 import toruunLogo from "../images/logos/toruunlogo.png";
+import banvitlogo from "../images/logos/banvitlogo.png";
+import hastavuklogo from "../images/logos/hastavuklogo.png";
+import bupiliclogo from "../images/logos/bupiliclogo.png";
 
 export const references = [
   {
@@ -53,5 +56,20 @@ export const references = [
     id: 9,
     referenceName: "Toru Un",
     image: toruunLogo,
+  },
+  {
+    id: 10,
+    referenceName: "Banvit",
+    image: banvitlogo,
+  },
+  {
+    id: 11,
+    referenceName: "Has Tavuk",
+    image: hastavuklogo,
+  },
+  {
+    id: 12,
+    referenceName: "Bupiliç",
+    image: bupiliclogo,
   },
 ];
