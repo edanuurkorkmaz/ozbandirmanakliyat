@@ -6,6 +6,7 @@ import Hero from "./components/Hero.jsx";
 import References from "./components/References.jsx";
 import Services from "./components/Services.jsx";
 import Blog from "./components/Blog.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Services />
       <Analytics />
       <SpeedInsights />
+      <Footer />
     </main>
   );
 }

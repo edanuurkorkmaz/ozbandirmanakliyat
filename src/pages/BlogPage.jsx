@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function BlogPage() {
   return (
@@ -13,21 +14,22 @@ export default function BlogPage() {
           }}
         ></div>
         <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/60 to-black/30"></div>
-        <div className="" >
+        <div className="relative max-w-7xl mx-auto px-6 w-full">
           <div>
-            <span className="absolute text-xs ">
+            <span className="text-xs mb-4 text-gray-300 ">
               <Link to="/" className="hover:text-white/80 cursor-pointer">
-                Ana Sayfa >
+                Ana Sayfa
               </Link>
+              <span className="mx-2">{">"}</span>
               <span className="text-red-900"> Blog</span>
             </span>
-              <h2>Lojistik Dünyasından Bilgiler ve Rehberler</h2>
-              <p>Taşımacılık, depolama ve lojistik süreçlerine dair merak ettiğiniz tüm konuları blogumuzda bulabilirsiniz. Öz Bandırma Nakliyat olarak; sektördeki deneyimimizi paylaşarak nakliye süreçleri, güvenli taşımacılık yöntemleri, doğru planlama ve operasyon yönetimi gibi başlıklarda bilgilendirici içerikler sunuyoruz.
-
-Amacımız; müşterilerimizin lojistik süreçlerini daha bilinçli, daha planlı ve daha verimli yönetmelerine katkı sağlamaktır.</p>
+            <h2 className="font-bold text-4xl md:text-6xl mb-6 text-white">
+              Blog
+            </h2>
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
