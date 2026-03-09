@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
+import heroBg from "../images/hero-bg.jpeg";
 
 export default function BlogPage() {
   return (
@@ -10,7 +11,7 @@ export default function BlogPage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('src/images/hero-bg.jpeg')",
+            backgroundImage: `url(${heroBg})`,
           }}
         ></div>
         <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/60 to-black/30"></div>

@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
+import heroBg from "../images/hero-bg.jpeg";
 
 export default function CookiePolicy() {
   return (
@@ -10,7 +11,7 @@ export default function CookiePolicy() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/src/images/hero-bg.jpeg')",
+            backgroundImage: `url(${heroBg})`,
           }}
         ></div>
 
