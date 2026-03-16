@@ -18,6 +18,12 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const getContactForm = () => {
+    document
+      .querySelector("#contactForm")
+      ?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <header
       className={`fixed flex items-center top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -66,6 +72,7 @@ export default function Navbar() {
         </nav>
         <div className="flex justify-end">
           <button
+            onClick={getContactForm}
             className={`hidden lg:flex items-center gap-2 rounded-xl cursor-pointer 
     bg-white/5 border border-white/10 backdrop-blur-md text-white 
     hover:bg-white/10 transition-all duration-300 ${

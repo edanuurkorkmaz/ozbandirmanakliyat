@@ -9,7 +9,10 @@ import contactFormImage from "../images/contactFormImage.jpeg";
 
 export default function ContactForm() {
   return (
-    <section className="bg-neutral-100 py-20 flex items-center justify-center">
+    <section
+      id="contactForm"
+      className="bg-neutral-100 py-20 flex items-center justify-center"
+    >
       <div className="max-w-6xl w-full grid lg:grid-cols-2 px-6">
         <div
           className="relative bg-cover bg-center rounded-xl px-8 py-16 overflow-hidden"
