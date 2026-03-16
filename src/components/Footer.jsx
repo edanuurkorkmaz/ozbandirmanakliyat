@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-6 lg:px-2 py-14 grid md:grid-cols-2 lg:grid-cols-5 gap-10 lg:justify-items-center">
         <div>
-          <h2 className="text-white text-xl font-semibold mb-4">
+          <h2 className="text-white text-xl text-nowrap font-semibold mb-4">
             Öz Bandırma Nakliyat
           </h2>
           <p className="text-sm leading-relaxed">

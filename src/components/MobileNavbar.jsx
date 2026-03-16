@@ -7,7 +7,7 @@ export default function MobileNavbar({ isOpen, setIsOpen }) {
     <div>
       {!isOpen && (
         <button
-          className="md:hidden z-50 relative"
+          className="lg:hidden z-50 relative"
           onClick={() => setIsOpen(!isOpen)}
         >
           <Menu className="text-white" />
@@ -31,7 +31,9 @@ export default function MobileNavbar({ isOpen, setIsOpen }) {
                 <Link to="/kurumsal">Kurumsal</Link>
               </li>
               <li className="hover:text-white">
-                <HashLink href="/#hizmetlerimiz">Hizmetlerimiz</HashLink>
+                <HashLink smooth href="/#hizmetlerimiz">
+                  Hizmetlerimiz
+                </HashLink>
               </li>
               <li className="hover:text-white">
                 <Link to="/blog">Blog</Link>
