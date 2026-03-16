@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router";
+import { HashLink } from "react-router-hash-link";
 
 export default function MobileNavbar({ isOpen, setIsOpen }) {
   return (
@@ -27,10 +28,10 @@ export default function MobileNavbar({ isOpen, setIsOpen }) {
                 <Link to="/">Ana Sayfa</Link>
               </li>
               <li className="hover:text-white">
-                <Link to="/about">Hakkımızda</Link>
+                <Link to="/kurumsal">Kurumsal</Link>
               </li>
               <li className="hover:text-white">
-                <a href="#services">Hizmetlerimiz</a>
+                <HashLink href="/#hizmetlerimiz">Hizmetlerimiz</HashLink>
               </li>
               <li className="hover:text-white">
                 <Link to="/blog">Blog</Link>

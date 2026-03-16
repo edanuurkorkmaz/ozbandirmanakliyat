@@ -24,7 +24,7 @@ createRoot(document.getElementById("root")).render(
     <Wrapper>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="about" element={<About />} />
+        <Route path="kurumsal" element={<About />} />
         <Route path="blog" element={<BlogPage />} />
         <Route path="kvkk-aydinlatma-metni" element={<Kvkk />} />
         <Route path="gizlilik-politikasi" element={<PrivacyPolicy />} />

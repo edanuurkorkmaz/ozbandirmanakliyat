@@ -3,6 +3,7 @@ import Logo from "../images/ÖBN.png";
 import { useState } from "react";
 
 import MobileNavbar from "./MobileNavbar";
+import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,10 +26,10 @@ export default function Navbar() {
               <Link to="/">Ana Sayfa</Link>
             </li>
             <li className="hover:text-white cursor-pointer">
-              <Link to="/about">Hakkımızda</Link>
+              <Link to="/kurumsal">Kurumsal</Link>
             </li>
             <li className="hover:text-white cursor-pointer">
-              <a href="#services">Hizmetlerimiz</a>
+              <HashLink to="/#hizmetlerimiz">Hizmetlerimiz</HashLink>
             </li>
             <li className="hover:text-white cursor-pointer">
               <Link to="/blog">Blog</Link>
