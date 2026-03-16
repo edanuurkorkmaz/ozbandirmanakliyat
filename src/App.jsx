@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import References from "./components/References.jsx";
 import Services from "./components/Services.jsx";
-import Blog from "./components/Blog.jsx";
 import Footer from "./components/Footer.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 
 export default function App() {
   return (
@@ -15,6 +15,7 @@ export default function App() {
       <Hero />
       <References />
       <Services />
+      <ContactForm />
       <Analytics />
       <SpeedInsights />
       <Footer />
