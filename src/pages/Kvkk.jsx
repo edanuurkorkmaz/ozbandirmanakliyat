@@ -144,7 +144,7 @@ export default function Kvkk() {
 
             <p className="mt-4">
               KVKK’nın 11. maddesi kapsamındaki haklarınıza ilişkin
-              taleplerinizi
+              taleplerinizi{" "}
               <span className="font-semibold">
                 ozbandirmanakliyat10@gmail.com
               </span>{" "}

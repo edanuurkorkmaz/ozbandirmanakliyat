@@ -1,3 +1,4 @@
+import { MessageCircleCheck } from "lucide-react";
 import heroBg from "../images/hero-bg.jpeg";
 
 export default function Hero() {
@@ -24,12 +25,15 @@ export default function Hero() {
           denizyolu taşımacılığı süreçlerinizi planlıyoruz.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-black/95 hover:text-white transition cursor-pointer">
-            Teklif Al
-          </button>
-          <button className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-black/95 hover:text-white transition cursor-pointer">
-            İletişime Geç
-          </button>
+          <a
+            href="https://wa.me/905423449120?text=Merhaba%20nakliye%20teklifi%20almak%20istiyorum."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 inline-flex gap-2 items-center bg-white text-gray-800 font-semibold rounded-lg hover:bg-black/60 hover:text-white transition cursor-pointer"
+          >
+            <MessageCircleCheck size={20} />
+            WhatsApp ile İletişime Geç
+          </a>
         </div>
       </div>
     </section>
