@@ -32,8 +32,8 @@ export default function About() {
 
       <section className="py-20 bg-neutral-100 ">
         <div className="max-w-7xl mx-auto px-6 space-y-20">
-          <div className="bg-white rounded-xl hover:shadow-lg transition flex justify-center text-center items-center gap-5 p-4">
-            <div className="bg-white p-2 flex-col items-center justify-items-center ">
+          <div className=" rounded-xl hover:shadow-lg transition flex justify-center text-center items-center gap-5 p-4">
+            <div className="bg-white p-5 flex-col items-center justify-items-center ">
               <View className="text-[#3C303F] mb-2" size={80} />
               <h3 className="text-2xl font-bold mb-3 text-[#3C303F]">
                 Vizyonumuz
