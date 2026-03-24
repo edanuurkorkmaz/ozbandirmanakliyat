@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 import heroBg from "../images/hero-bg.jpeg";
+import aboutImage from "../images/container.png";
 import { Gem, Rocket, View } from "lucide-react";
 
 export default function About() {
@@ -76,7 +77,7 @@ export default function About() {
           <div className="flex gap-6 justify-center items-center">
             <img
               className="rounded-xl object-cover w-full h-105"
-              src="./src/images/container.png"
+              src={aboutImage}
               alt="konteyner"
             />
             <div>
