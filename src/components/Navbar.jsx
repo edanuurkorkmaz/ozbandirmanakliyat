@@ -65,9 +65,9 @@ export default function Navbar() {
             <li className="hover:text-white cursor-pointer scroll-smooth">
               <HashLink to="/#hizmetlerimiz">Hizmetlerimiz</HashLink>
             </li>
-            <li className="hover:text-white cursor-pointer">
+            {/* <li className="hover:text-white cursor-pointer">
               <Link to="/blog">Blog</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div className="flex justify-end">
