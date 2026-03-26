@@ -17,7 +17,7 @@ export default function About() {
             backgroundImage: `url(${heroBg})`,
           }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/60 to-black/30"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 w-full">
           <span className="text-xs md:text-sm mb-4 text-gray-300 block">
@@ -74,7 +74,7 @@ export default function About() {
 
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <img
-              className="rounded-xl object-cover w-full h-[250px] md:h-[350px] lg:h-[400px]"
+              className="rounded-xl object-cover w-full h-62.5 md:h-87.5 lg:h-100"
               src={aboutImage}
               alt="konteyner"
             />
